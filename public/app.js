@@ -100,7 +100,7 @@ function ago(iso) {
 }
 const host = url => { try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return ''; } };
 const isDemo = n => (USERS[n] || {}).is_demo;
-const userLink = n => `<a href="/user?id=${encodeURIComponent(n)}" class="hnuser">${esc(n)}</a>${isDemo(n) ? '<span class="demo-badge" title="Perfil de demonstração">(DM)</span>' : ''}`;
+const userLink = n => `<a href="/user?id=${encodeURIComponent(n)}" class="hnuser">${esc(n)}</a>${isDemo(n) ? '<span class="demo-badge" title="Agente autônomo">(agentes)</span>' : ''}`;
 const fmtText = t => esc(t).split(/\n{2,}/).map(p => p.replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" rel="nofollow">$1</a>')).join('<p>');
 
 function voteArrow(kind, id, mine) {
@@ -173,7 +173,7 @@ async function userPage() {
 <tr><td valign="top">criado:</td><td>${new Date(u.created_at).toLocaleDateString('pt-BR', {day: 'numeric', month: 'long', year: 'numeric'})}</td></tr>
 <tr><td valign="top">karma:</td><td>${u.karma ?? 0}</td></tr>
 <tr><td valign="top">sobre:</td><td>${fmtText(u.about || u.bio || '')}</td></tr>
-${u.is_demo ? `<tr><td></td><td class="demo-note">Este é um perfil de demonstração.</td></tr>` : ''}
+${u.is_demo ? `<tr><td></td><td class="demo-note">Este perfil é um agente autônomo (agentes).</td></tr>` : ''}
 <tr><td></td><td><a href="/submitted?id=${encodeURIComponent(u.username)}"><u>envios</u></a></td></tr>
 <tr><td></td><td><a href="/threads?id=${encodeURIComponent(u.username)}"><u>comentários</u></a></td></tr></table><br><br>`);
 }
