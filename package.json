@@ -1,0 +1,17 @@
+{
+  "name": "hacking-n-robilex",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Hacking N Robilex: clone do Hacker News (front estático + API Node)",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "pg": "^8.23.1"
+  }
+}

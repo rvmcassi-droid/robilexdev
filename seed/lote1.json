@@ -1,0 +1,673 @@
+{
+  "users": [
+    {
+      "username": "capivaradev",
+      "about": "Dev backend em Curitiba. Go, Postgres e café coado.",
+      "karma": 471,
+      "created_at": "2026-08-07T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "Tapiocajs",
+      "about": "Front-end em Fortaleza, viciada em CSS e acessibilidade.",
+      "karma": 1141,
+      "created_at": "2025-12-25T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "zecak",
+      "about": "Sysadmin velho de guerra. Linux desde o Conectiva.",
+      "karma": 929,
+      "created_at": "2026-04-12T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "Marimbondo",
+      "about": "Freelancer de mobile, Flutter e Kotlin. Recife.",
+      "karma": 434,
+      "created_at": "2025-02-20T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "bitucaRS",
+      "about": "Aprendendo Rust na marra. Porto Alegre.",
+      "karma": 371,
+      "created_at": "2025-01-05T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "jabutilento88",
+      "about": "Engenheiro de dados. Gosto de pipelines que não quebram de madrugada.",
+      "karma": 1743,
+      "created_at": "2026-07-31T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "pamonhaq",
+      "about": "Estudante de computação na UFG. Goiânia.",
+      "karma": 137,
+      "created_at": "2026-05-29T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "LurdinhaSQL",
+      "about": "DBA há 15 anos. Índice certo resolve 90% dos problemas.",
+      "karma": 910,
+      "created_at": "2026-01-06T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "tucan0",
+      "about": "SRE, Kubernetes e muita paciência. São Paulo.",
+      "karma": 2084,
+      "created_at": "2024-12-24T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "farofeiro",
+      "about": "Full-stack em startup pequena, faço de tudo um pouco.",
+      "karma": 123,
+      "created_at": "2025-02-04T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "pequi.byte",
+      "about": "Dev de jogos indie nas horas vagas. Brasília.",
+      "karma": 829,
+      "created_at": "2024-11-05T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "SeuMadrugaOps",
+      "about": "Já derrubei produção numa sexta. Aprendi.",
+      "karma": 2247,
+      "created_at": "2025-06-29T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "cuscuzcomovo",
+      "about": "Pesquisador de compiladores. João Pessoa.",
+      "karma": 917,
+      "created_at": "2025-05-30T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "biaterm",
+      "about": "Vim > tudo. Dev em Floripa.",
+      "karma": 1154,
+      "created_at": "2026-08-26T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "maracujaz",
+      "about": "Machine learning aplicado a agro. Ribeirão Preto.",
+      "karma": 668,
+      "created_at": "2025-06-26T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "Gambiarrista",
+      "about": "Arquiteto de software, odeio microsserviço sem motivo.",
+      "karma": 1408,
+      "created_at": "2025-11-21T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "ticotico",
+      "about": "Redes, roteamento e IPv6 que ninguém usa.",
+      "karma": 651,
+      "created_at": "2026-01-24T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "rapadura92",
+      "about": "Python, Django e churrasco. Campina Grande.",
+      "karma": 1393,
+      "created_at": "2026-05-20T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "ninapx",
+      "about": "Designer que aprendeu a programar. BH.",
+      "karma": 394,
+      "created_at": "2025-08-08T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "guaranazinho",
+      "about": "Node.js e filas. Manaus.",
+      "karma": 411,
+      "created_at": "2025-08-30T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "sabia0day",
+      "about": "Pentester. Se tem formulário, tem bug.",
+      "karma": 1423,
+      "created_at": "2024-12-22T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "PasteldeFeira",
+      "about": "Dev PHP orgulhoso. Laravel paga meus boletos.",
+      "karma": 1098,
+      "created_at": "2026-07-19T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "jocaremoto",
+      "about": "Trabalho remoto pra fora desde 2019. Interior de MG.",
+      "karma": 1896,
+      "created_at": "2025-03-01T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "acaibug",
+      "about": "QA que gosta de quebrar coisa. Belém.",
+      "karma": 526,
+      "created_at": "2025-08-10T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "DonaCotinha",
+      "about": "Voltei a programar aos 52. Nunca é tarde.",
+      "karma": 337,
+      "created_at": "2025-02-13T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "brigadeir0",
+      "about": "Embarcados, ESP32 e solda. Campinas.",
+      "karma": 1215,
+      "created_at": "2024-11-27T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "cajuoss",
+      "about": "Mantenedor de projeto open source pequeno.",
+      "karma": 1496,
+      "created_at": "2025-01-18T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "velhocobol",
+      "about": "COBOL em banco grande. Sim, ainda existe.",
+      "karma": 802,
+      "created_at": "2026-06-22T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "luanit",
+      "about": "Dev Elixir e entusiasta de sistemas distribuídos.",
+      "karma": 202,
+      "created_at": "2026-01-11T09:00:00-03:00",
+      "is_demo": true
+    },
+    {
+      "username": "Quindim77",
+      "about": "Analista de dados, SQL e planilhas que viraram sistema.",
+      "karma": 1200,
+      "created_at": "2026-06-12T09:00:00-03:00",
+      "is_demo": true
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "author": "capivaradev",
+      "title": "Mostra aí: fiz um gerenciador de finanças em Go que roda num Raspberry Pi",
+      "url": "",
+      "text": "Depois de largar planilha, montei um app simples com Go e SQLite. Roda num Pi 3 velho. Aceito críticas no código.",
+      "points": 122,
+      "created_at": "2026-10-28T10:00:00-03:00"
+    },
+    {
+      "id": 2,
+      "author": "pamonhaq",
+      "title": "Por que vocês ainda usam Postgres em vez de banco NoSQL?",
+      "url": "",
+      "text": "Pergunta sincera de quem tá começando. Vejo muita empresa voltando pro relacional.",
+      "points": 197,
+      "created_at": "2026-10-09T16:00:00-03:00"
+    },
+    {
+      "id": 3,
+      "author": "rapadura92",
+      "title": "Python 3.14 lançado: o que mudou",
+      "url": "https://www.python.org/downloads/",
+      "text": "",
+      "points": 189,
+      "created_at": "2026-10-06T14:00:00-03:00"
+    },
+    {
+      "id": 4,
+      "author": "tucan0",
+      "title": "Pergunte: como vocês lidam com plantão sem enlouquecer?",
+      "url": "",
+      "text": "Entrei no rodízio de on-call e tô dormindo mal. Dicas?",
+      "points": 184,
+      "created_at": "2026-10-07T19:00:00-03:00"
+    },
+    {
+      "id": 5,
+      "author": "bitucaRS",
+      "title": "Rust vale a pena pra quem vem de Python?",
+      "url": "",
+      "text": "Tô há 3 meses apanhando do borrow checker. Quando melhora?",
+      "points": 139,
+      "created_at": "2026-10-23T19:00:00-03:00"
+    },
+    {
+      "id": 6,
+      "author": "Tapiocajs",
+      "title": "Mostra aí: extensão que lê CSS e aponta problema de contraste",
+      "url": "",
+      "text": "Fiz pra uso próprio e abri o código. Funciona no Firefox e Chrome.",
+      "points": 39,
+      "created_at": "2026-10-20T19:00:00-03:00"
+    },
+    {
+      "id": 7,
+      "author": "Gambiarrista",
+      "title": "O caso contra microsserviços em times de 5 pessoas",
+      "url": "",
+      "text": "Monolito bem modularizado resolve. Escrevi um texto curto sobre isso.",
+      "points": 90,
+      "created_at": "2026-10-18T20:00:00-03:00"
+    },
+    {
+      "id": 8,
+      "author": "jocaremoto",
+      "title": "Como é trabalhar remoto pra empresa gringa morando no interior",
+      "url": "",
+      "text": "Relato de 6 anos: impostos, fuso, internet e solidão.",
+      "points": 128,
+      "created_at": "2026-10-06T16:00:00-03:00"
+    },
+    {
+      "id": 9,
+      "author": "zecak",
+      "title": "Linux kernel 6.18: notas da versão",
+      "url": "https://kernel.org/",
+      "text": "",
+      "points": 197,
+      "created_at": "2026-10-09T19:00:00-03:00"
+    },
+    {
+      "id": 10,
+      "author": "velhocobol",
+      "title": "Pergunte: alguém aqui ainda mantém sistema em COBOL?",
+      "url": "",
+      "text": "Curiosidade minha sobre quantos ainda estão nessa.",
+      "points": 288,
+      "created_at": "2026-10-08T19:00:00-03:00"
+    },
+    {
+      "id": 11,
+      "author": "brigadeir0",
+      "title": "Mostra aí: estação meteorológica caseira com ESP32",
+      "url": "",
+      "text": "Sensor de chuva, temperatura e um painel web simples.",
+      "points": 169,
+      "created_at": "2026-10-27T21:00:00-03:00"
+    },
+    {
+      "id": 12,
+      "author": "DonaCotinha",
+      "title": "Voltei a programar aos 52 anos, um relato",
+      "url": "",
+      "text": "Larguei a área em 2001 e voltei esse ano. Muita coisa mudou, muita não.",
+      "points": 31,
+      "created_at": "2026-10-08T09:00:00-03:00"
+    },
+    {
+      "id": 13,
+      "author": "LurdinhaSQL",
+      "title": "Índices que todo dev deveria entender antes de culpar o ORM",
+      "url": "",
+      "text": "Um resumo do que eu vejo errado toda semana.",
+      "points": 164,
+      "created_at": "2026-10-13T13:00:00-03:00"
+    },
+    {
+      "id": 14,
+      "author": "maracujaz",
+      "title": "Machine learning no campo: prevendo pragas na soja com dados abertos",
+      "url": "",
+      "text": "Projeto pequeno com dados públicos e um modelo simples. Resultados honestos.",
+      "points": 36,
+      "created_at": "2026-10-07T18:00:00-03:00"
+    },
+    {
+      "id": 15,
+      "author": "sabia0day",
+      "title": "Pergunte: qual a falha de segurança mais boba que vocês já acharam?",
+      "url": "",
+      "text": "A minha foi senha do admin no HTML comentado.",
+      "points": 164,
+      "created_at": "2026-10-07T19:00:00-03:00"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "post_id": 1,
+      "parent_id": null,
+      "author": "LurdinhaSQL",
+      "text": "SQLite pra isso é escolha perfeita. Só cuida do backup do arquivo.",
+      "created_at": "2026-10-28T11:31:00-03:00"
+    },
+    {
+      "id": 2,
+      "post_id": 1,
+      "parent_id": 1,
+      "author": "capivaradev",
+      "text": "Boa, tô mandando cópia diária pro meu NAS.",
+      "created_at": "2026-10-28T13:25:00-03:00"
+    },
+    {
+      "id": 3,
+      "post_id": 1,
+      "parent_id": null,
+      "author": "brigadeir0",
+      "text": "Pi 3 ainda segura tudo isso? Achei que ia engasgar.",
+      "created_at": "2026-10-28T12:56:00-03:00"
+    },
+    {
+      "id": 4,
+      "post_id": 2,
+      "parent_id": null,
+      "author": "LurdinhaSQL",
+      "text": "Porque a maioria dos dados é relacional mesmo. NoSQL brilha em casos bem específicos.",
+      "created_at": "2026-10-09T17:58:00-03:00"
+    },
+    {
+      "id": 5,
+      "post_id": 2,
+      "parent_id": 4,
+      "author": "pamonhaq",
+      "text": "Faz sentido. Na faculdade só ensinam o básico de SQL.",
+      "created_at": "2026-10-09T18:41:00-03:00"
+    },
+    {
+      "id": 6,
+      "post_id": 2,
+      "parent_id": null,
+      "author": "jabutilento88",
+      "text": "Postgres com JSONB cobre muito do que as pessoas buscam no NoSQL.",
+      "created_at": "2026-10-09T20:29:00-03:00"
+    },
+    {
+      "id": 7,
+      "post_id": 3,
+      "parent_id": null,
+      "author": "rapadura92",
+      "text": "O que mais me animou foi a melhoria nas mensagens de erro.",
+      "created_at": "2026-10-06T15:09:00-03:00"
+    },
+    {
+      "id": 8,
+      "post_id": 3,
+      "parent_id": null,
+      "author": "cuscuzcomovo",
+      "text": "As mudanças no interpretador são interessantes pra quem estuda desempenho.",
+      "created_at": "2026-10-06T19:16:00-03:00"
+    },
+    {
+      "id": 9,
+      "post_id": 4,
+      "parent_id": null,
+      "author": "SeuMadrugaOps",
+      "text": "Primeiro: alerta que não exige ação não pode acordar ninguém. Corta sem dó.",
+      "created_at": "2026-10-07T20:08:00-03:00"
+    },
+    {
+      "id": 10,
+      "post_id": 4,
+      "parent_id": 9,
+      "author": "tucan0",
+      "text": "Isso. Metade dos meus alertas é barulho.",
+      "created_at": "2026-10-07T20:15:00-03:00"
+    },
+    {
+      "id": 11,
+      "post_id": 4,
+      "parent_id": 9,
+      "author": "zecak",
+      "text": "E combina folga compensatória com o time. Sem isso ninguém aguenta.",
+      "created_at": "2026-10-07T22:47:00-03:00"
+    },
+    {
+      "id": 12,
+      "post_id": 4,
+      "parent_id": null,
+      "author": "luanit",
+      "text": "Runbook escrito salva muito, principalmente às 3 da manhã.",
+      "created_at": "2026-10-08T01:35:00-03:00"
+    },
+    {
+      "id": 13,
+      "post_id": 5,
+      "parent_id": null,
+      "author": "cuscuzcomovo",
+      "text": "Lá pelo quarto ou quinto mês o borrow checker começa a fazer sentido. Aguenta firme.",
+      "created_at": "2026-10-23T20:34:00-03:00"
+    },
+    {
+      "id": 14,
+      "post_id": 5,
+      "parent_id": 13,
+      "author": "bitucaRS",
+      "text": "Valeu, dá um alívio saber.",
+      "created_at": "2026-10-23T21:16:00-03:00"
+    },
+    {
+      "id": 15,
+      "post_id": 5,
+      "parent_id": null,
+      "author": "rapadura92",
+      "text": "Eu desisti e voltei, mas talvez tente de novo.",
+      "created_at": "2026-10-23T23:47:00-03:00"
+    },
+    {
+      "id": 16,
+      "post_id": 6,
+      "parent_id": null,
+      "author": "ninapx",
+      "text": "Que massa! Vou usar nos projetos de cliente.",
+      "created_at": "2026-10-20T20:37:00-03:00"
+    },
+    {
+      "id": 17,
+      "post_id": 6,
+      "parent_id": null,
+      "author": "acaibug",
+      "text": "Testei aqui e ele pegou um botão cinza no cinza que ninguém tinha visto.",
+      "created_at": "2026-10-20T22:27:00-03:00"
+    },
+    {
+      "id": 18,
+      "post_id": 7,
+      "parent_id": null,
+      "author": "farofeiro",
+      "text": "Concordo muito. Na minha startup separaram em 12 serviços com 4 devs.",
+      "created_at": "2026-10-18T21:57:00-03:00"
+    },
+    {
+      "id": 19,
+      "post_id": 7,
+      "parent_id": 18,
+      "author": "Gambiarrista",
+      "text": "Clássico. E o deploy vira uma orquestra.",
+      "created_at": "2026-10-18T21:37:00-03:00"
+    },
+    {
+      "id": 20,
+      "post_id": 7,
+      "parent_id": null,
+      "author": "tucan0",
+      "text": "Depende, mas na maioria das vezes você tem razão.",
+      "created_at": "2026-10-19T01:25:00-03:00"
+    },
+    {
+      "id": 21,
+      "post_id": 8,
+      "parent_id": null,
+      "author": "guaranazinho",
+      "text": "Internet foi o meu maior problema morando no interior do AM.",
+      "created_at": "2026-10-06T17:23:00-03:00"
+    },
+    {
+      "id": 22,
+      "post_id": 8,
+      "parent_id": null,
+      "author": "Marimbondo",
+      "text": "Como você resolveu a parte dos impostos?",
+      "created_at": "2026-10-06T17:14:00-03:00"
+    },
+    {
+      "id": 23,
+      "post_id": 8,
+      "parent_id": 22,
+      "author": "jocaremoto",
+      "text": "Abri empresa no Simples e contratei contador que já atende quem exporta serviço.",
+      "created_at": "2026-10-06T18:08:00-03:00"
+    },
+    {
+      "id": 24,
+      "post_id": 9,
+      "parent_id": null,
+      "author": "zecak",
+      "text": "Destaque pras melhorias em sistemas de arquivos.",
+      "created_at": "2026-10-09T20:32:00-03:00"
+    },
+    {
+      "id": 25,
+      "post_id": 9,
+      "parent_id": null,
+      "author": "ticotico",
+      "text": "Alguma mudança relevante na pilha de rede?",
+      "created_at": "2026-10-09T22:31:00-03:00"
+    },
+    {
+      "id": 26,
+      "post_id": 10,
+      "parent_id": null,
+      "author": "PasteldeFeira",
+      "text": "Meu tio mantém. Ganha melhor que muito dev de framework da moda.",
+      "created_at": "2026-10-08T20:05:00-03:00"
+    },
+    {
+      "id": 27,
+      "post_id": 10,
+      "parent_id": 26,
+      "author": "velhocobol",
+      "text": "Verdade. Falta gente e o sistema não para.",
+      "created_at": "2026-10-08T21:48:00-03:00"
+    },
+    {
+      "id": 28,
+      "post_id": 10,
+      "parent_id": null,
+      "author": "Quindim77",
+      "text": "Já precisei extrair dados de um mainframe. Experiência única.",
+      "created_at": "2026-10-08T23:03:00-03:00"
+    },
+    {
+      "id": 29,
+      "post_id": 11,
+      "parent_id": null,
+      "author": "brigadeir0",
+      "text": "Esqueci de dizer: o código e o esquema elétrico estão no repositório.",
+      "created_at": "2026-10-27T22:55:00-03:00"
+    },
+    {
+      "id": 30,
+      "post_id": 11,
+      "parent_id": null,
+      "author": "pequi.byte",
+      "text": "Que sensor de chuva você usou?",
+      "created_at": "2026-10-27T23:07:00-03:00"
+    },
+    {
+      "id": 31,
+      "post_id": 12,
+      "parent_id": null,
+      "author": "cajuoss",
+      "text": "Relato lindo. Seja bem-vinda de volta!",
+      "created_at": "2026-10-08T10:09:00-03:00"
+    },
+    {
+      "id": 32,
+      "post_id": 12,
+      "parent_id": null,
+      "author": "biaterm",
+      "text": "O que mais te surpreendeu nessa volta?",
+      "created_at": "2026-10-08T10:40:00-03:00"
+    },
+    {
+      "id": 33,
+      "post_id": 12,
+      "parent_id": 32,
+      "author": "DonaCotinha",
+      "text": "O git. Na minha época era tudo em disquete com nome de arquivo_final2.",
+      "created_at": "2026-10-08T12:10:00-03:00"
+    },
+    {
+      "id": 34,
+      "post_id": 13,
+      "parent_id": null,
+      "author": "jabutilento88",
+      "text": "Salvando pra mandar pro time inteiro.",
+      "created_at": "2026-10-13T14:50:00-03:00"
+    },
+    {
+      "id": 35,
+      "post_id": 13,
+      "parent_id": null,
+      "author": "farofeiro",
+      "text": "Culpado: eu, que culpo o ORM toda semana.",
+      "created_at": "2026-10-13T15:43:00-03:00"
+    },
+    {
+      "id": 36,
+      "post_id": 14,
+      "parent_id": null,
+      "author": "jabutilento88",
+      "text": "Que fonte de dados abertos você usou?",
+      "created_at": "2026-10-07T19:27:00-03:00"
+    },
+    {
+      "id": 37,
+      "post_id": 14,
+      "parent_id": null,
+      "author": "Quindim77",
+      "text": "Adorei a honestidade nos resultados. Raro de ver.",
+      "created_at": "2026-10-07T21:38:00-03:00"
+    },
+    {
+      "id": 38,
+      "post_id": 15,
+      "parent_id": null,
+      "author": "acaibug",
+      "text": "Endpoint de admin sem autenticação porque 'ninguém vai achar'.",
+      "created_at": "2026-10-07T20:04:00-03:00"
+    },
+    {
+      "id": 39,
+      "post_id": 15,
+      "parent_id": 38,
+      "author": "sabia0day",
+      "text": "Sempre alguém acha.",
+      "created_at": "2026-10-07T20:24:00-03:00"
+    },
+    {
+      "id": 40,
+      "post_id": 15,
+      "parent_id": null,
+      "author": "PasteldeFeira",
+      "text": "Chave de API commitada no repositório público. Fui eu, em 2017.",
+      "created_at": "2026-10-07T23:24:00-03:00"
+    }
+  ]
+}
