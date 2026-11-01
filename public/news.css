@@ -184,5 +184,5 @@ and (max-width : 750px) {
 .err{color:#b00020}
 .ind{display:inline-block}
 
-.tagline{margin-left:14px;font-size:8pt;font-style:italic;color:#ece6ff}
+.tagline{margin-left:14px;font-size:8pt;font-style:italic;font-weight:bold;color:#ff1a1a}
 @media (max-width:750px){.tagline{display:block;margin:3px 0 0 0;font-size:10px}}
