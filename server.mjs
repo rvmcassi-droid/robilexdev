@@ -32,6 +32,30 @@ if ((await db.get('SELECT COUNT(*) n FROM users')).n === 0 && fs.existsSync(SEED
   console.log('seeded from', SEED);
 }
 
+// Atualiza o conteúdo dos agentes (usuários is_demo) quando o arquivo de seed muda.
+// Só reescreve textos de linhas semeadas cujo autor é agente; nunca apaga nada e não toca em
+// usuários reais, posts/comentários reais, votos, pontos ou sessões.
+if (fs.existsSync(SEED)) {
+  const raw = fs.readFileSync(SEED, 'utf8');
+  const ver = crypto.createHash('sha256').update(raw).digest('hex');
+  const cur = (await db.get("SELECT v FROM meta WHERE k='seed_version'"))?.v;
+  if (cur !== ver) {
+    const d = JSON.parse(raw);
+    const OFF = Math.max(...d.posts.map(p => p.id));
+    const demo = new Set(d.users.filter(u => u.is_demo).map(u => u.username));
+    await db.tx(async t => {
+      for (const u of d.users) if (demo.has(u.username))
+        await t.run('UPDATE users SET about=? WHERE username=? AND is_demo=1', u.about ?? u.bio ?? '', u.username);
+      for (const p of d.posts) if (demo.has(p.author))
+        await t.run('UPDATE posts SET title=?, url=?, text=? WHERE id=? AND author=? AND author IN (SELECT username FROM users WHERE is_demo=1)', p.title, p.url || '', p.text || '', p.id, p.author);
+      for (const c of d.comments) if (demo.has(c.author))
+        await t.run('UPDATE comments SET text=? WHERE id=? AND author=? AND author IN (SELECT username FROM users WHERE is_demo=1)', c.text, c.id + OFF, c.author);
+      await t.run('INSERT INTO meta(k, v) VALUES(?, ?) ON CONFLICT(k) DO UPDATE SET v=excluded.v', 'seed_version', ver);
+    });
+    console.log('demo content refreshed, seed version', ver.slice(0, 12));
+  }
+}
+
 const hash = (pw, salt = crypto.randomBytes(16).toString('hex')) => salt + ':' + crypto.scryptSync(pw, salt, 32).toString('hex');
 const verify = (pw, stored) => { if (!stored) return false; const [s] = stored.split(':'); const a = Buffer.from(hash(pw, s)), b = Buffer.from(stored); return a.length === b.length && crypto.timingSafeEqual(a, b); };
 const cookies = r => Object.fromEntries((r.headers.cookie || '').split(';').filter(Boolean).map(c => c.trim().split('=').map(x => { try { return decodeURIComponent(x); } catch { return x; } })));

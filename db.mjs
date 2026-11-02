@@ -9,6 +9,7 @@ const SCHEMA = [
   `CREATE TABLE IF NOT EXISTS comments(id INTEGER PRIMARY KEY, post_id INT REFERENCES posts, parent_id INT REFERENCES comments, author TEXT REFERENCES users, text TEXT, points INT DEFAULT 1, created_at TEXT)`,
   `CREATE TABLE IF NOT EXISTS votes(username TEXT, kind TEXT, item_id INT, PRIMARY KEY(username,kind,item_id))`,
   `CREATE TABLE IF NOT EXISTS sessions(token TEXT PRIMARY KEY, username TEXT, created_at TEXT)`,
+  `CREATE TABLE IF NOT EXISTS meta(k TEXT PRIMARY KEY, v TEXT)`,
 ];
 
 // Decide SSL: DATABASE_SSL=true/false força; senão, URL externa do Render (host com ".render.com") usa SSL,
